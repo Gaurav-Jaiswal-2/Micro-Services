@@ -16,7 +16,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Builder
+@Builder//for fault tolerance
 public class Users {
 	@Id
 	private String userId;
